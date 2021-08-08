@@ -25,12 +25,12 @@
 	<section class="reg-section">
 	<div class="container headings text-center pt-5">
 	    <h1 class="text-center font-weight-bold">Sign Up</h1>
-		<p class="text-capitalize pt-1">Register here:</p>
 	</div>
 	<div class="container">
 	    <div class="row mt-5 pt-4">
 	        <div class="centerdiv col-lg-4 col-md-6 col-10 offset-lg-4 offset-md-3 offset-1">
-			    <form action="/action_page.php" method="POST">
+				<h3 class="text-capitalize mb-2" style="text-align:center">Register here:</h3>
+			    <form action="/login.php" method="POST">
 				
                     <div class="form-group input-group">
 					    <div class="input-group-prepend">
