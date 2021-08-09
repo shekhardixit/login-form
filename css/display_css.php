@@ -21,7 +21,7 @@
     }
     .card{
         position: absolute;
-        top: 20vh;
+        top: 5vh;
 		border-radius: 5px;
 		box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
     }
