@@ -14,7 +14,7 @@
 		width: 100%;
 		height: 100vh;
 		/*background-image: linear-gradient(25deg, #013A6B 50%, #004E95 50%);*/
-		background-image: url('https://wallpaperaccess.com/full/1866348.jpg')
+		background-image: url('https://www.pngkey.com/png/full/813-8137225_blue-rhombus-diamond-background-background-blue-diamond.png');
 	}
 	.centerdiv{
 		width: 350px;
@@ -31,6 +31,9 @@
 	}
 	.centerdiv p{
 		margin-top: 20px;
+	}
+	.input-group-text{
+		width:40px;
 	}
 	</style>
 </html>
