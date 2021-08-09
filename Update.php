@@ -18,7 +18,7 @@
 		$Mobile = $_POST['mobile'];
 		$Password = $_POST['pwd'];
 		$CPassword = $_POST['cpassword'];
-		$q = " UPDATE registration SET id= $id, username='$name', email='$Email', birthday='$DOB', mobile=$Mobile, pwd='$Password', cpassword='$CPassword' where id=$id ";
+		$q = " UPDATE `registration` SET `id`=$id,`Name`='$Name',`Email`='$Email',`DOB`='$DOB',`Mobile`=$Mobile,`Password`='$Password',`CPassword`='$CPassword' WHERE id=$id";
 
 		$query = mysqli_query($con, $q);
         header('location: Display.php');
@@ -40,46 +40,46 @@
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fa fa-user"></i></span>
 							</div>
-							<input type="text" name="username" class="form-control" placeholder="Enter Full Name" id="username" required autocomplete="off" required>
+							<input type="text" name="username" class="form-control" placeholder="Enter Full Name" id="username">
 						</div>
 
 						<div class="form-group input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fa fa-envelope"></i></span>
 							</div>
-							<input type="email" name="email" class="form-control" placeholder="Enter Email" id="email" required autocomplete="off" required>
+							<input type="email" name="email" class="form-control" placeholder="Enter Email" id="email">
 						</div>
 
 						<div class="form-group input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fa fa-birthday-cake"></i></span>
 							</div>
-							<input type="date" name="birthday" class="form-control" placeholder="Date of Birth" id="birthday" required autocomplete="off" required>
+							<input type="date" name="birthday" class="form-control" placeholder="Date of Birth" id="birthday">
 						</div>
 
 						<div class="form-group input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fa fa-mobile"></i></span>
 							</div>
-							<input type="number" name="mobile" class="form-control" placeholder="Enter Mobile Number" id="mobile" required autocomplete="off" required>
+							<input type="number" name="mobile" class="form-control" placeholder="Enter Mobile Number" id="mobile">
 						</div>
 
 						<div class="form-group input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fa fa-lock"></i></span>
 							</div>
-							<input type="password" name="pwd" class="form-control" placeholder="Create Password" id="pas" required autocomplete="off" required>
+							<input type="password" name="pwd" class="form-control" placeholder="Create Password" id="pas" required autocomplete="off">
 						</div>
 
 						<div class="form-group input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fa fa-lock"></i></span>
 							</div>
-							<input type="password" name="cpassword" class="form-control" placeholder="Confirm Password" id="pas" required autocomplete="off" required>
+							<input type="password" name="cpassword" class="form-control" placeholder="Confirm Password" id="pas" required autocomplete="off">
 						</div>
 
 						<div class="d-flex justify-content-center form-button">
-							<button type="submit" name="submit" class="btn btn-primary btn-block">Create Account</button>
+							<button type="submit" name="submit" class="btn btn-primary btn-block">Update Account</button>
 						</div>
 						<p style="color:#0d3b4c">Already have account?<a href="login.html" style="text-decoration:none;font-family:'Play',sans-serif;color:white;">&nbsp;Log In</a></p>
 					</form>
