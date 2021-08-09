@@ -45,7 +45,7 @@
                                         <td><?php echo $res['Mobile']; ?></td>
                                         <td><?php echo $res['Password']; ?></td>
                                         <td><?php echo $res['CPassword']; ?></td>
-                                        <td><button class="btn btn-danger btn"><a href="delete.php?id=<?php echo $res['id']; ?>" class="text-white">Delete</a></button></td>
+                                        <td><button class="btn btn-danger"><a href="delete.php?id=<?php echo $res['id']; ?>" class="text-white">Delete</a></button></td>
                                         <td><button class="btn btn-warning"><a href="update.php?id=<?php echo $res['id']; ?>" class="text-white">Update</a></button></td>
                                     </tr>
                                     <?php
