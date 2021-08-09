@@ -24,7 +24,7 @@
 	
 	<section class="reg-section">
 	<div class="container headings text-center pt-5">
-	    <h1 class="text-center font-weight-bold">Sign Up</h1>
+	    <h1 class="text-center font-weight-bold" style="color:#0d3b4c">Sign Up</h1>
 	</div>
 	<div class="container">
 	    <div class="row mt-5 pt-4">
@@ -77,7 +77,7 @@
 					<div class="d-flex justify-content-center form-button">
                         <button type="submit" name="submit" class="btn btn-primary btn-block">Create Account</button>
 					</div>
-					<p>Already have account?<a href="#" style="text-decoration:none;font-family:'Play',sans-serif;color:white;">&nbsp;Log In</a></p>
+					<p style="color:#0d3b4c">Already have account?<a href="login.html" style="text-decoration:none;font-family:'Play',sans-serif;color:white;">&nbsp;Log In</a></p>
                 </form>
 			</div>
 		</div>

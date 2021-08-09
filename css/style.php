@@ -13,11 +13,12 @@
 		
 		width: 100%;
 		height: 100vh;
-		background-image: linear-gradient(25deg, #013A6B 50%, #004E95 50%);
+		/*background-image: linear-gradient(25deg, #013A6B 50%, #004E95 50%);*/
+		background-image: url('https://wallpaperaccess.com/full/1866348.jpg')
 	}
 	.centerdiv{
 		width: 350px;
-		height: 450px;
+		height: 470px;
 		position: absolute;
 		top: 50%;
 		bottom: 80%;
@@ -25,7 +26,7 @@
 		padding: 20px;
 		backdrop-filter: blur(10px);
 		border-radius: 5px;
-		box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+		box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
 		
 	}
 	.centerdiv p{
